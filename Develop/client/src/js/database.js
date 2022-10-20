@@ -18,6 +18,7 @@ export const putDb = async (content) => {
   
   // create a connection to the data bases and version
   const jateDb = await openDB('jate', 1, );
+  const tx = jateDb.transaction('jate', 'readwrite'); // created a new transaction and specify the db and db privileges
 }
 
 // TODO: Add logic for a method that gets all the content from the database
