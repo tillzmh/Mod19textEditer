@@ -20,6 +20,7 @@ export const putDb = async (content) => {
   const jateDb = await openDB('jate', 1, );
   const tx = jateDb.transaction('jate', 'readwrite'); // created a new transaction and specify the db and db privileges
   const store = tx.objectStore('jate'); // opened the desired object store
+  const request = store.add({content}); // used .add method on the stroe and pass in the content
 }
 
 // TODO: Add logic for a method that gets all the content from the database
