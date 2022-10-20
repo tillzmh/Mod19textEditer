@@ -21,7 +21,9 @@ export const putDb = async (content) => {
   const tx = jateDb.transaction('jate', 'readwrite'); // created a new transaction and specify the db and db privileges
   const store = tx.objectStore('jate'); // opened the desired object store
   const request = store.add({content}); // used .add method on the stroe and pass in the content
-}
+  const result = await request;
+  console.log('data saved to database', result); // confirmed the request
+};
 
 // TODO: Add logic for a method that gets all the content from the database
 export const getDb = async () => console.error('getDb not implemented');
