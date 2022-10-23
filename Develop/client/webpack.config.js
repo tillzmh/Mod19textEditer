@@ -21,9 +21,7 @@ module.exports = () => {
       new HtmlWebpackPlugin({
         template: './index.html',
         title: 'Mod19textEditor',
-      })
-      
-    ],
+      }),
 
     module: {
       rules: [
