@@ -1,7 +1,8 @@
 ## Table of Contents
 
-  * [Description](#description)
   * [Applications](#applications)
+  * [Description](#description)
+  * [GitHub](#github)
 
   ## Applications
 
