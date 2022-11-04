@@ -16,7 +16,3 @@
 
  The text editor allows a developer to create notes or code snippets with or without an internet connection and be able to reliably retrieve them for later use storing data to an IndexedDB database.
 
- ## GitHub
-
-https://github.com/tillzmh
-https://github.com/tillzmh/Mod19textEditer
